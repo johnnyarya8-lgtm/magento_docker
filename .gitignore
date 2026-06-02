@@ -1,0 +1,22 @@
+# Environment
+.env
+
+# Magento
+/src/vendor/
+/src/generated/
+/src/var/
+/src/pub/static/*
+!/src/pub/static/.htaccess
+/src/pub/media/catalog/product/cache/
+/src/app/etc/env.php
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
